@@ -1,0 +1,102 @@
+.dropdown {
+    display: inline-block;
+}
+.dropdown button{
+    background-color:white;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    max-width: 120px;
+    box-shadow: 3px 3px 5px gray;
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{ 
+    background-color: black;
+    color: white;
+}
+.Latest {
+    display: inline-block;
+}
+.Latest button{
+    background-color:white;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1em;
+    width:12.5vw;
+    padding: 15px;
+    border: none;
+}
+.Latest a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px;   
+}
+.Latest .content{
+    display: block;
+    position: absolute;
+    background-color: white;
+    width: 25vw;
+    height: 65vh;
+    overflow: scroll;
+    box-shadow: 3px 3px 5px gray;
+}
+.Latest:hover .content{
+    display: block;
+}
+.Latest:hover button{ 
+    background-color: black;
+    color: white;
+}
+.Popular {
+    display: inline-block;
+}
+.Popular button{
+    background-color:white;
+    text-align: center;
+    width: 12.5vw;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 15px;
+    border: none;
+}
+.Popular a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+}
+.Popular .content{
+    display: none;
+    position: absolute;
+    align-content: center;
+    background-color: whitesmoke;
+    width: 25vw;
+    margin-left: -12.5vw;
+    height: 65vh;
+}
+.Popular:hover .content{
+    display: block;
+}
+.Popular:hover button{ 
+    background-color: black;
+    color: white;
+}
